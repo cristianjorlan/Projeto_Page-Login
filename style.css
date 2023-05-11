@@ -303,6 +303,7 @@ footer {
 }
 
 footer a {
+    user-select: none;
     position: relative;
     font-size: 1.1em;
     color: white;

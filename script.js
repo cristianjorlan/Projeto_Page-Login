@@ -3,6 +3,7 @@ const loginLink = document.querySelector('.login-register');
 const registerLink = document.querySelector('.register-login');
 const btnLogin = document.querySelector('.login-cima');
 const iconClose = document.querySelector('.icon-close');
+const iconClose2 = document.querySelector('.icon-close2');
 
 
 loginLink.addEventListener('click', ()=> {
@@ -18,5 +19,9 @@ btnLogin.addEventListener('click', ()=> {
 })
 
 iconClose.addEventListener('click', ()=> {
+    conteudo.classList.remove('active-btn')
+})
+
+iconClose2.addEventListener('click', ()=> {
     conteudo.classList.remove('active-btn')
 })
